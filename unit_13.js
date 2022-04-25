@@ -73,10 +73,11 @@ let a4 = {
     "mix": "mix"
 };
 function f4() {
+    let out = '';
     for(let key in a4){
-        return key + ' '+ a4[key] + '<br>';
+        out += key + ' '+ a4[key] + '<br>';
     }
-    
+    return out;
 }
 
 document.querySelector('.b-4').onclick = () => {
