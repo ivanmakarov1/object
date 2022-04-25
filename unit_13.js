@@ -74,7 +74,7 @@ let a4 = {
 };
 function f4() {
     for(let key in a4){
-        return  a4 + ' ' + a4[key] + '<br>';
+        return a4[key] + '<br>';
     }
     
 }
