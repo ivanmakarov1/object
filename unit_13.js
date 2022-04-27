@@ -88,6 +88,7 @@ document.querySelector('.b-4').onclick = () => {
 // Функция f4 жестко привязана к массиву a4. Это не удобно. Давайте напишем функцию f5, которая принимает массив как параметр и выводит его в формате указанном в функции в указанный блок (как второй параметр).
 
 
+
 function f5(arr, block) {
     let out = '';
     for(let key in arr){
@@ -95,7 +96,6 @@ function f5(arr, block) {
     } 
     document.querySelector(block).innerHTML = out;
 }
-
 document.querySelector('.b-5').onclick = () => {
     let a5 = {
         "one": 1,
@@ -103,6 +103,8 @@ document.querySelector('.b-5').onclick = () => {
     }
     f5(a5, '.out-5');
 }
+
+
 
 
 // Task 6
