@@ -117,8 +117,10 @@ let a6 = {
 
 function f6() {
     let out = document.querySelector('.out-6').innerHTML;
-    let input61 = document.querySelector('.i-61').value = out;
-    let input62 = document.querySelector('.i-62').value = out;
+    let input61 = document.querySelector('.i-61').value = a6;
+    let input62 = document.querySelector('.i-62').value = a6;
+    a6 = out;
+    
 }
 
 document.querySelector('.b-6').onclick = f6;
