@@ -116,10 +116,13 @@ let a6 = {
 };
 
 function f6() {
-    let out = document.querySelector('.out-6').innerHTML;
-    let input61 = document.querySelector('.i-61').value = a6;
-    let input62 = document.querySelector('.i-62').value = a6;
-    a6 = out;
+        let out = "";
+        let out1 = "";
+        let inp6 = document.querySelector(".i-61").value = out; //ключ
+        let inp7 = document.querySelector(".i-62").value = out1; //значение
+        a6[inp6] = inp7;
+        document.querySelector('.out-6').innerHTML = a6;
+    
     
 }
 
