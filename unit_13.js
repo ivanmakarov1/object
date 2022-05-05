@@ -118,12 +118,10 @@ let a6 = {
 function f6() {
         let out = "";
         let out1 = "";
-        let inp6 = document.querySelector(".i-61").value = out; //ключ
-        let inp7 = document.querySelector(".i-62").value = out1; //значение
-        a6[inp6] = inp7;
+        let inp6 = document.querySelector(".i-61").value; //ключ
+        let inp7 = document.querySelector(".i-62").value; //значение
+        a6[inp6] = inp7; 
         document.querySelector('.out-6').innerHTML = a6;
-    
-    
 }
 
 document.querySelector('.b-6').onclick = f6;
