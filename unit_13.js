@@ -134,7 +134,14 @@ let a7 = {
 
 
 function f7() {
-
+    let out = '';
+    let inp7 = document.querySelector(".i-7").value;
+    if(inp7 == a7[key]){
+        out += 1;
+    }
+    else{
+        out += 0;
+    }
 }
 
 document.querySelector('.b-7').onclick = f7;
