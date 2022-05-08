@@ -142,6 +142,7 @@ function f7() {
     else{
         out += 0;
     }
+    document.querySelector('.out-7').innerHTML = out;
 }
 
 document.querySelector('.b-7').onclick = f7;
