@@ -10,6 +10,7 @@ function f1() {
     };
     document.querySelector('.out-1').innerHTML = a1.two;
     //return ...
+    
 }
 
 document.querySelector('.b-1').onclick = f1;
