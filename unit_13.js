@@ -137,7 +137,7 @@ let a7 = {
 function f7() {
     let out = '';
     let inp7 = document.querySelector(".i-7").value;
-    if(inp7 == a7[key]){
+    if(inp7 == a7){ 
         out += 1;
     }
     else{
